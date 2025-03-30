@@ -1,0 +1,56 @@
+/*
+ * Spotlight-inspired Rofi theme.
+ * Save as: ~/.config/rofi/spotlight.rasi
+ */
+
+/* Overall window properties */
+window {
+    width: 600px;
+    location: center;
+    /* Remove extra padding around the window */
+    padding: 0px;
+}
+
+/* Main container */
+mainbox {
+    border: 0px;
+    background: #2d2d2d;
+}
+
+/* Title and prompt */
+textbox {
+    text: "Spotlight:";
+    font: "Menlo 12";
+    color: #c0c0c0;
+    padding: 10px 10px;
+}
+
+/* Input field */
+inputbar {
+    border: 0px;
+    background: #2d2d2d;
+    color: #c0c0c0;
+    font: "Menlo 12";
+    padding: 5px 10px;
+}
+
+/* List view styling */
+listview {
+    border: 0px;
+    fixed-height: 40px;
+}
+
+/* List element styling */
+element {
+    padding: 5px 10px;
+    border: 0px;
+    background: #2d2d2d;
+    color: #c0c0c0;
+}
+
+/* Styling for the selected element */
+element selected {
+    background: #007aff;
+    color: #ffffff;
+}
+
